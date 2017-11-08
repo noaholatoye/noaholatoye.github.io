@@ -13,7 +13,6 @@
 p {
 	font-family: 'Libre Franklin', sans-serif;
 	font-weight: lighter;
-
 }
 
 
@@ -61,6 +60,9 @@ li{
   Base Layout Styles
 ==================================== */
 
+.tittle{
+	font-size: 4em;
+}
 .primary-image{
 	width: 95%;
 	margin: 0 auto;
@@ -73,18 +75,27 @@ li{
 	padding: 10px;
 	text-transform: uppercase;
 	background: #fff;
+	display: block;
+	font-size: 2.5em;
+	margin-bottom: 10px
 }
 
 
 
-.contact-introduction,
-.introduction{
-	font-size: 1.2em;
+.contact-introduction p,
+.introduction p{
+	font-size: 3em;
 	width: 90%;
 	margin: 0 auto;
 	line-height: 1.5em;
 	text-align: center;
+	display: block;
+}
 
+.portfolio-header{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 3em;
 }
 
 .wrapper {
@@ -97,8 +108,9 @@ li{
 }
 
 .profile-image {
-	width: 15em;
-	margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 600px;
 
 }
 
@@ -131,13 +143,15 @@ li{
 .sub-heading{
 	font-weight: 400;
 	margin-top: 30px;
-	font-size: 1.4em;
+	font-size: 2.5em;
 	font-family: 'Libre Franklin', sans-serif;
 	text-align: center;
 }
 
 .description{
-	margin-bottom: 40px;
+	margin-bottom: 70px;
+	font-size: 2.3em;
+
 }
 
 
@@ -225,369 +239,5 @@ li{
 	float: left;
 	color: #696969;	
 	
-
-}
-
-
-
-
-
-
-/* =================================
-  Media Queries min-width: 768px
-==================================== */
-
-@media (min-width: 768px){
-
-
-
-	.portfolio-header{
-	font-weight: 900;
-	padding-top: 20px;
-	}
-
-	.introduction{
-		margin-left: 0;
-	}
-
-	.main-list li{
-		display: inline;
-		padding: 0;
-		text-transform: uppercase;
-		margin-bottom: 1em;
-		background-color: #f5f5f5;
-	}
-
-	.portfolio-list,
-	.contact-list{
-		margin-left: 2em;
-	}
-
-	.main-menu{
-			width: 100%;
-			text-align: center;
-			margin-top: 2em;
-			margin-bottom: 4em; 
-		}
-
-	.tittle {
-		margin-bottom: 1em;
-	}
-
-
-	.profile-image{
-		width: 40%;
-		float: right;
-	
-	}
-	
-	.wrapper{
-		width: 95%;
-		margin: 0 auto;
-	}
-
-
-	.introduction p{
-		text-align: left;
-		width: 60%;
-		margin: 0%;
-		font-weight: lighter;
-		color: #808080;
-		font-size: 1em;
-		line-height: 1.3em;
-		
-
-	}
-
-
-	.header-background{
-		width: 100%;
-		padding-bottom: 1em;
-	}
-	
-
-	.nav-one,
-	.nav-two,
-	.nav-three,
-	.nav-four,
-	.nav-five,
-	.nav-six {
-		width: 49%;
-	}
-
-	.content-image{
-		width: 100%;
-		margin: 0;
-		text-align: center;
-	}
-
-
-	.main-footer{ 
-		margin-top: 4em;
-		padding-top: 2em;
-
-	}
-
-
-	.contact-introduction{
-		width: 70%;
-		font-size: 1.3em;
-		margin-bottom: 2em;
-
-	}
-
-	.contact{
-		padding-bottom: 1em;
-	}
-
-
-	.clearfix::after {
-		content: " ";
-		display: table;
-		clear: both;
-	}
-
-	.web-menu{
-	display: none;
-	}
-
-
-/* =================================
-  Floats
-==================================== */
-.main-tittle{
-		float: left;
-		font-size: 1em;
-		font-weight: bold;
-	}
-
-	.menu li{
-		float: right;
-		text-transform: uppercase;
-		font-size: 1em;
-		margin-left: 1.5em;
-		font-weight: bold;
-	}
-
-	.nav-one,
-	.nav-three,
-	.nav-five{
-		float: left;
-	}
-
-	.nav-two,
-	.nav-four,
-	.nav-six{
-	float: right;
-	}
-
-
-	.back-to-top,
-	.name{
-	display: none;
-	}
-
-	
-
-	.menu,
-	.main-tittle{
-	display: inline;
-	}
-
-
-}
-
-/* =================================
-  Media Queries min-width: 1025px
-==================================== */
-
-@media (min-width: 1020px) {
-
-	.main-header{
-	
-	margin: 0 auto;
-	}
-
-	.portfolio-header{
-	font-weight: 900;
-	padding-top: 20px;
-	}
-
-
-	.main-tittle {
-		font-size: 3em;
-	}
-
-
-	.profile-image  {
-		width: 35%;
-		padding-top: 3.5em;
-		margin-left: 0;
-	}
-
-	.primary-image{
-		width: 90%;
-		margin: 0 auto;
-	}
-
-	.content-image{
-		margin: 0 auto;
-	}
-
-	.introduction p{
-		text-align: left;
-		width: 70%;
-		margin-left: 0%;
-		font-weight: lighter;
-		color: #808080;
-		font-size: 1.3em;
-		line-height: 1.3em;
-
-		
-
-	}
-
-
-	.header-background{
-		width: 100%;
-		padding-bottom: 4em;
-		padding-top: 2.5em;
-	}
-	
-
-	.nav-one,
-	.nav-two,
-	.nav-three,
-	.nav-four,
-	.nav-five,
-	.nav-six {
-		width: 30%;
-	}
-
-	.primary-content,
-	.secondary-content{
-		padding-left:  3em;
-	}
-
-	.description{
-	margin-bottom: 4em;
-	}
-
-
-
-	.wrapper{
-		max-width: 1020px;
-		width: 90%;
-		margin: 0 auto;
-		text-align: center;
-	}
-
-	.main-footer{ 
-		margin-top: 2em;
-		padding-top: 2em;
-	}
-
-
-	.contact-introduction{
-		width: 50%;
-		font-size: 1.3em;
-		margin-bottom: 2em;
-
-	}
-
-	.contact{
-		padding-bottom: 1em;
-	}
-
-	.back-to-top,
-	.name{
-		display: none;
-	}
-
-	.full-menu{
-		display: inline;
-	}
-
-	.mobile-menu{
-		display: none;
-	}
-
-	.clearfix::after {
-		content: " ";
-		display: table;
-		clear: both;
-	}
-
-	.web-menu{
-		display: inline-block;
-		width: 90%;
-		margin: 0 auto;
-	}
-
-	
-
-	.footer-border,
-	.main-header,
-	.wrapper {
-		max-width: 1020px;
-		width: 95%;
-		
-	}
-
-
-
-
-
- /*=================================
-  Floats
-====================================*/ 
-	.tittle{
-		float: left;
-		margin: 0;
-	}
-	.nav-one,
-	.nav-two,
-	.nav-three{
-		float: left;
-		margin-left: 1em;
-	}
-
-	.nav-four,
-	.nav-five,
-	.nav-six{
-		float: left;
-		margin-left: 1em;
-	}
-
-
-
-
-	.main-tittle{
-		float: left;
-		font-size: 1em;
-		font-weight: bold;
-	}
-
-	.menu li{
-		float: right;
-		text-transform: uppercase;
-		font-size: 1em;
-		margin-left: 1.5em;
-		font-weight: bold;
-	
-	}
-
-	.introduction p{
-		float: left;
-		padding-top: 2em;
-	}
-
-
-
-
-
-
-
-
 
 }

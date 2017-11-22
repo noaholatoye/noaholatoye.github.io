@@ -15,6 +15,11 @@ p {
 	font-weight: lighter;
 }
 
+h1 {
+	padding-bottom: 1em;
+	line-height: 0;
+	font-size: 2em;
+}
 
 h2,
 h3,
@@ -55,10 +60,6 @@ li{
   Base Layout Styles
 ==================================== */
 
-.tittle{
-	font-size: 2em;
-	
-}
 .main-menu{
 	text-transform: uppercase;
 	display: block;
@@ -66,18 +67,17 @@ li{
 }
 
 .main-list li{
-	padding: 20px;
+	padding: 10px;
 	background: #fff;
 	margin-bottom: .2em;
 	font-size: 1.5em;
 }
 
-
 .introduction{
 	font-size: 1em;
 	width: 90%;
 	margin: 0 auto;
-	line-height: 3em;
+	line-height: 1.5em;
 	text-align: center;
 	display: block;
 }
@@ -100,7 +100,7 @@ li{
 .profile-image {
 	padding-top: 50px;
 	padding-bottom: 50px;
-	width: 600px;
+	width: 300px;
 	margin: 0 auto;
 
 }
@@ -116,7 +116,7 @@ li{
 .header-background{
 	background-color: #f5f5f5;
 	text-align: center;
-	padding-top: 20px;
+	padding-top: 5px;
 	padding-bottom: 30px;
 
 }
@@ -215,7 +215,7 @@ li{
 	display: inline-block;
 	width: 100%;
 	margin: 0 auto;
-	font-size: 1.5em;
+	font-size: 1em;
 
 }
 
@@ -247,9 +247,9 @@ li{
 
 @media (min-width: 720px) {
 
-.portfolio-header{
-	font-weight: 900;
-	padding-top: 20px;
+	.portfolio-header{
+		font-weight: 900;
+		padding-top: 20px;
 	}
 
 	.introduction{
@@ -262,6 +262,7 @@ li{
 		text-transform: uppercase;
 		margin-bottom: 1em;
 		background-color: #f5f5f5;
+		font-size: 1em;
 	}
 
 	.portfolio-list,
@@ -285,6 +286,7 @@ li{
 		width: 40%;
 		float: right;
 		margin-top: 0;
+		padding-top: 0;
 	
 	}
 
@@ -429,13 +431,21 @@ li{
 
 
 	.main-tittle {
-		font-size: 3em;
+		font-size: .5em;
+	}
+
+	.header-menu{
+		text-transform: uppercase;
+	}
+
+	.header-menu li{
+		font-size: 1em;
 	}
 
 
-	.profile-image  {
+	.profile-image{
 		width: 35%;
-		padding-top: 3.5em;
+		padding-top: 50px;
 		margin-left: 0;
 	}
 
@@ -448,17 +458,16 @@ li{
 		margin: 0 auto;
 	}
 
-	.introduction p{
+	.introduction {
 		text-align: left;
-		width: 70%;
 		margin-left: 0%;
 		font-weight: lighter;
 		color: #808080;
 		font-size: 1.3em;
 		line-height: 1.3em;
-
-		
-
+		padding-top: 50px;
+		margin-top: 0;
+		width: 60%
 	}
 
 
@@ -559,6 +568,11 @@ li{
 		float: left;
 		margin: 0;
 	}
+
+	.header-menu li{
+		float: right;
+		margin-left: 50px;
+	}
 	.nav-one,
 	.nav-two,
 	.nav-three{
@@ -593,7 +607,6 @@ li{
 
 	.introduction p{
 		float: left;
-		padding-top: 2em;
 	}
 
 

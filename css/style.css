@@ -100,12 +100,11 @@ li{
 .profile-image {
 	padding-top: 50px;
 	padding-bottom: 50px;
-	width: 300px;
+	width: 500px;
 	margin: 0 auto;
 
 }
 
-.content-image img,
 .content-image  {
 	width: 100%;
 	margin: 0 auto;
@@ -207,6 +206,7 @@ li{
 	display: none;
 }
 
+
 /* =================================
   Floats
 ==================================== */
@@ -215,7 +215,7 @@ li{
 	display: inline-block;
 	width: 100%;
 	margin: 0 auto;
-	font-size: 1em;
+	font-size: 2em;
 
 }
 
@@ -234,6 +234,7 @@ li{
 
 }
 
+
 .clearfix::after {
 		content: " ";
 		display: table;
@@ -242,182 +243,28 @@ li{
 
 
 /* =================================
-  Media Queries min-width: 768px
+  Media Queries min-width: 720px
 ==================================== */
 
-@media (min-width: 720px) {
-
-	.portfolio-header{
-		font-weight: 900;
-		padding-top: 20px;
-	}
-
-	.introduction{
-		margin-left: 0;
-	}
-
-	.main-list li{
-		display: inline;
-		padding: 0;
-		text-transform: uppercase;
-		margin-bottom: 1em;
-		background-color: #f5f5f5;
-		font-size: 1em;
-	}
-
-	.portfolio-list,
-	.contact-list{
-		margin-left: 2em;
-	}
-
-	.main-menu{
-			width: 100%;
-			text-align: center;
-			margin-top: 2em;
-			margin-bottom: 4em; 
-		}
-
-	.tittle {
-		margin-bottom: 1em;
-	}
+@media screen and (max-width: 768px) {
 
 
-	.profile-image{
-		width: 40%;
-		float: right;
-		margin-top: 0;
-		padding-top: 0;
-	
-	}
-
-	.primary-image{
-		width: 90%;
-		margin: 0 auto;
-		
-	}
-	
-	.wrapper{
-		width: 95%;
-		margin: 0 auto;
-	}
 
 
-	.introduction{
-		text-align: left;
-		width: 50%;
-		margin: 0%;
-		font-weight: lighter;
-		color: #808080;
-		font-size: 1em;
-		line-height: 1.3em;
-		
-
-	}
-
-
-	.header-background{
-		width: 100%;
-		padding-bottom: 1em;
-	}
-	
-
-	.nav-one,
-	.nav-two,
-	.nav-three,
-	.nav-four,
-	.nav-five,
-	.nav-six {
-		width: 49%;
-	}
-
-	.content-image{
-		width: 100%;
-		margin: 0;
-		text-align: center;
-	}
-
-
-	.main-footer{ 
-		margin-top: 4em;
-		padding-top: 2em;
-
-	}
-
-
-	.contact-introduction{
-		width: 70%;
-		font-size: 1.3em;
-		margin-bottom: 2em;
-
-	}
-
-	.contact{
-		padding-bottom: 1em;
-	}
-
-
-	.clearfix::after {
-		content: " ";
-		display: table;
-		clear: both;
-	}
-
-	.web-menu{
-	display: none;
-	}
-
-
-/* =================================
+ /*=================================
   Floats
-==================================== */
-.main-tittle{
-		float: left;
-		font-size: 1em;
-		font-weight: bold;
-	}
+====================================*/ 
 
-	.menu li {
-		float: right;
-		text-transform: uppercase;
-		font-size: 1em;
-		margin-left: 1.5em;
-		font-weight: bold;
-	}
-
-	.nav-one,
-	.nav-three,
-	.nav-five{
-		float: left;
-	}
-
-	.nav-two,
-	.nav-four,
-	.nav-six{
-	float: right;
-	}
-
-
-	.back-to-top,
-	.name{
-	display: none;
-	}
-
-	
-
-	.menu,
-	.main-tittle{
-	display: inline;
-	}
-
-
-
+.wrapper{
+	width: 50px;
 }
 
+}
 /* =================================
   Media Queries min-width: 1025px
 ==================================== */
 
-@media (min-width: 1020px) {
+@media screen and (min-width: 1025px) {
 
 	.main-header{
 	
@@ -522,11 +369,6 @@ li{
 		padding-bottom: 1em;
 	}
 
-	.back-to-top,
-	.name{
-		display: none;
-	}
-
 	.full-menu{
 		display: inline;
 	}
@@ -557,6 +399,10 @@ li{
 		
 	}
 
+	.link-top{
+		display: none;
+	}
+
 
 
 
@@ -564,6 +410,10 @@ li{
  /*=================================
   Floats
 ====================================*/ 
+	.profile-image{
+		float: right;
+	}
+
 	.tittle{
 		float: left;
 		margin: 0;
@@ -609,6 +459,10 @@ li{
 		float: left;
 	}
 
+	.main-tittle,
+	.menu{
+		display: initial;
+}
 
 
 }

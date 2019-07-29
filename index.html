@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="utf-8" />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width">
 		<link rel="shortcut icon" href="/portfolio-webapp/favicon.ico" />
 		<link rel="manifest" href="/portfolio-webapp/manifest.json" />
 		<link
@@ -20,255 +21,465 @@
         <link rel="stylesheet" href="index.css">
 	</head>
 	<body>
-            <nav class="app-header header--transparent sticker" id="main-menu">
-                    <div class="container">
-                        <div class="row align-items-center">
-                            <div class="col-lg-4 col-sm-5 col-5">
-                                <div class="logo">
-                                    <a href="/">
-                                        
-                                        <div class="nav-logo">
-                                            <img
-                                                src="/assets/images/logo/noah-logo.svg"
-                                                alt="Noah Logo"
-                                            />
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-lg-8 d-none d-lg-block">
-                                <div class="mainmenu-wrapper">
-                                    <nav>
-                                        <ul class="main-menu">
-                                            <li class="active">
-                                                <a href="#home">Home</a>
-                                            </li>
-                                            <li>
-                                                <a href="#about">About</a>
-                                            </li>
-                                            <li>
-                                                <a href="#features">Projects</a>
-                                            </li>
-                                            <li>
-                                                <a href="mailto:noaholatoye101@gmail.com">Email Me</a>
-                                            </li>
-                                        </ul>
-                                    </nav>
-                                    <a
-                                        class="button-default button-olive"
-                                        href="https://drive.google.com/open?id=1Flx2DBWmOGMacl7ajPIAHygWL8M4sI9p"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                    >
-                                        Download Resume
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-sm-7 col-7 d-block d-lg-none">
-                                <div class="mobile-menu">
-                                    <nav>
-                                        <ul>
-                                            <li class="active">
-                                                <a href="#home">Home</a>
-                                            </li>
-                                            <li>
-                                                <a href="#about">About</a>
-                                            </li>
-                                            <li>
-                                                <a href="#features">Features</a>
-                                            </li>
-                                            <li>
-                                                <a href="#pricing">Email Me</a>
-                                            </li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </nav>
             <div
-            class="slider-area bg-color"
-            id="home"
-            data-bg-color="#2d3e50"
-        >
-            <div class="container h-100">
-                <div class="row">
-                    <div class="col-lg-7 h-100">
-                        <div class="banner-text">
-                            <div class="banner-table-cell">
-                                <h1>
-                                    I'm <br /> <span class="theme-color">Noah Olatoye</span>
-                                </h1>
-                                <p class="banner-rider">
-                                    I love to effectively communicate through data
-                                    visualisation.
+			class="app-header header--transparent sticker"
+			id="main-menu"
+			style="opacity: 1;"
+		>
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-4 col-sm-5 col-5">
+						<div class="logo">
+							<a href="/"
+								><div class="nav-logo">
+									<img
+										src="/assets/images/logo/noah-logo.svg"
+										alt="Noah Logo"
+									/></div
+							></a>
+						</div>
+					</div>
+					<div class="col-lg-8 d-none d-lg-block">
+						<div class="mainmenu-wrapper">
+							<nav>
+								<ul class="main-menu">
+									<li class="active"><a href="#home">Home</a></li>
+									<li class=""><a href="#about">About</a></li>
+									<li class=""><a href="#features">Projects</a></li>
+									<li>
+										<a href="mailto:noaholatoye101@gmail.com">Email Me</a>
+									</li>
+								</ul>
+							</nav>
+							<a
+								class="button-default button-olive"
+								href="https://drive.google.com/open?id=1Flx2DBWmOGMacl7ajPIAHygWL8M4sI9p"
+								target="_blank"
+								rel="noopener noreferrer"
+								>Download Resume</a
+							>
+						</div>
+					</div>
+					<div class="col-sm-7 col-7 d-block d-lg-none">
+						<div class="mobile-menu">
+							<nav style="display: block;">
+								<ul>
+									<li class="active"><a href="#home">Home</a></li>
+									<li><a href="#about">About</a></li>
+									<li><a href="#features">Features</a></li>
+									<li><a href="#pricing">Email Me</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+        </div>
+        
+        <!-- Banner -->
+        <div
+			class="slider-area bg-color horizontal bg-shape"
+			id="home"
+			data-bg-color="#2d3e50"
+			style="background-color: rgb(45, 62, 80);"
+		>
+			<div class="container h-100">
+				<div class="row">
+					<div class="col-lg-7 h-100">
+						<div class="banner-text">
+							<div class="banner-table-cell">
+								<h1>
+									I'm <br />
+									<span class="theme-color">Noah Olatoye</span>
+								</h1>
+								<p class="banner-rider">
+									I love to effectively communicate through data visualisation.
+								</p>
+								<div class="banner-buttons">
+									<a
+										class="button-default button-white"
+										href="https://teamtreehouse.com/noaholatoye"
+										target="_blank"
+										rel="noopener noreferrer"
+										>Achievements</a
+									>
+								</div>
+							</div>
+						</div>
+						<div class="banner-apps">
+							<div class="single-app" id="html">
+								<div class="single-app-table-cell">
+									<img src="/assets/iconmoon/html5.svg" alt="HTML icon" />
+									<h4>HTML</h4>
+									<h3>102K</h3>
+								</div>
+							</div>
+							<div class="single-app" id="css">
+								<div class="single-app-table-cell">
+									<img src="/assets/iconmoon/csswizardry.svg" alt="CSS icon" />
+									<h4>CSS</h4>
+									<h3>102K</h3>
+								</div>
+							</div>
+							<div class="single-app" id="node">
+								<div class="single-app-table-cell">
+									<img
+										src="/assets/iconmoon/node-dot-js.svg"
+										alt="Node.Js icon"
+									/>
+									<h4>Node.Js</h4>
+									<h3>102K</h3>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-5">
+						<div class="banner-product-image text-right">
+							<img
+								class="image-1"
+								src="/assets/images/app/banner-mobile-601X959.png"
+								alt="App Landing"
+							/><img
+								class="image-2"
+								src="/assets/images/app/banner-mobile-2.png"
+								alt="App Landing"
+							/><img
+								class="image-3"
+								src="/assets/images/app/banner-mobile-3.png"
+								alt="App Landing"
+							/>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="particles-js"></div>
+        </div>
+        
+        <!-- About -->
+        <div class="app-about horizontal-about" id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="section-title text-center mb--40">
+                                <h2>ABOUT <span class="theme-color">Me</span></h2>
+                                <img
+                                    class="image-1"
+                                    src="/assets/images/app/title-icon.png"
+                                    alt="App Landing"
+                                /><img
+                                    class="image-2"
+                                    src="/assets/images/app/title-icon-2.png"
+                                    alt="App Landing"
+                                /><img
+                                    class="image-3"
+                                    src="/assets/images/app/title-icon-3.png"
+                                    alt="App Landing"
+                                />
+                                <p>
+                                    I am a life-long learner and a frontend developer. For the past
+                                    decade, I've played the role of a designer. Interestingly, I
+                                    became passionate about frontend technology in 2016. Ever since
+                                    then, my design experience has paid off.
                                 </p>
-                                <div class="banner-buttons">
-                                    <a
-                                        class="button-default button-white"
-                                        href="https://teamtreehouse.com/noaholatoye"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                    >
-                                        View Achievements
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="banner-apps">
-                        
-                            <div class="single-app" id="html">
-                                <div class="single-app-table-cell">
-                                    <img src="/assets/iconmoon/html5.svg" alt="HTML icon" />
-                                    <h4>HTML</h4>
-                                    <h3>102K</h3>
-                                </div>
-                            </div>
-
-                           
-                            <div class="single-app" id="css">
-                                <div class="single-app-table-cell">
-                                    <img
-                                        src="/assets/iconmoon/csswizardry.svg"
-                                        alt="CSS icon"
-                                    />
-                                    <h4>CSS</h4>
-                                    <h3>102K</h3>
-                                </div>
-                            </div>
-
-                           
-                            <div class="single-app" id="node">
-                                <div class="single-app-table-cell">
-                                    <img
-                                        src="/assets/iconmoon/node-dot-js.svg"
-                                        alt="Node.Js icon"
-                                    />
-                                    <h4>Node.Js</h4>
-                                    <h3>102K</h3>
-                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-5">
-                        <div class="banner-product-image text-right">
-                            <img
-                                class="image-1"
-                                src="/assets/images/app/banner-mobile-601X959.png"
-                                alt="App Landing"
-                            />
-                            <img
-                                class="image-2"
-                                src="/assets/images/app/banner-mobile-2.png"
-                                alt="App Landing"
-                            />
-                            <img
-                                class="image-3"
-                                src="/assets/images/app/banner-mobile-3.png"
-                                alt="App Landing"
-                            />
+                    <div class="row align-items-center">
+                        <div class="col-lg-5 offset-lg-1 mt--40">
+                            <div class="about-thumbnail mr--35">
+                                <img
+                                    class="image-1"
+                                    src="/assets/images/app/back-view.png"
+                                    alt="App Landing"
+                                /><img
+                                    class="image-2"
+                                    src="/assets/images/app/mobile-2.png"
+                                    alt="App Landing"
+                                /><img
+                                    class="image-3"
+                                    src="/assets/images/app/mobile-3.png"
+                                    alt="App Landing"
+                                />
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mt--40">
+                            <div class="about-content">
+                                <h2 class="title">
+                                    DEVELOPMENT <span class="theme-color">APPROACH</span>
+                                </h2>
+                                <p>
+                                    You have an idea; you need someone to bring it to life. Or you
+                                    already have a product that needs to be redefined to meet the
+                                    demand of target audience!. I can make these processes seamless
+                                    for you! LET'S BUILD SOMETHING AMAZING TOGETHER. We can both
+                                    take your idea, your product to the next level. Let's have a
+                                    chat and discuss your plan!
+                                </p>
+                                <details
+                                    ><summary>Education &amp; Experience</summary>
+                                    <div id="experience">
+                                        <section>
+                                            <h3 class="work theme-color">Work History</h3>
+                                            <div class="history-details">
+                                                <h4>Senior Designer</h4>
+                                                <p class="company-icon">NESG</p>
+                                                <p class="date-icon">2016-Presents</p>
+                                            </div>
+                                        </section>
+                                        <section>
+                                            <h3 class="education theme-color">Education</h3>
+                                            <div class="history-details">
+                                                <h4>Front-End Web Frameworks</h4>
+                                                <p class="company-icon">University of Hong Kong</p>
+                                                <p class="date-icon">2019</p>
+                                            </div>
+                                        </section>
+                                    </div></details
+                                >
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-           
-            <div class="particles-js" id="particles-js"></div>
-           
+
+            <!-- Recent Project -->
+            <body>
+                    <div>
+                        <div class="service-area horizontal">
+                            <h2 class="recent-projects">Recent Projects</h2>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-4 service-column">
+                                        <div class="single-service text-center">
+                                            <div class="service-icon"><i class="zmdi zmdi-code"></i></div>
+                                            <h4 class="title">Registration WebApp</h4>
+                                            <p class="desc">
+                                                A layout allows the students to register for an essay contest
+                                                with the necessary information needed for participation.
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <button
+                                                type="button"
+                                                class="button-default recent-project-modal btn btn-primary"
+                                            >
+                                                View Projects
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 service-column">
+                                        <div class="single-service text-center">
+                                            <div class="service-icon"><i class="zmdi zmdi-image"></i></div>
+                                            <h4 class="title">Image Gallery</h4>
+                                            <p class="desc">
+                                                Image gallery using React and the Flickr API. After creating
+                                                the project with create-react-app, I also built the gallery
+                                                components.
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <button
+                                                type="button"
+                                                class="button-default recent-project-modal btn btn-primary"
+                                            >
+                                                View Projects
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 service-column">
+                                        <div class="single-service text-center">
+                                            <div class="service-icon"><i class="zmdi zmdi-time"></i></div>
+                                            <h4 class="title">SVG Transition</h4>
+                                            <p class="desc">
+                                                Fun transitioning of 50DaysOfCodeALC4 (Andela Learning
+                                                Community) scholarship Adds powered by Andela, Pluralsight and
+                                                Google.
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <button
+                                                type="button"
+                                                class="button-default recent-project-modal btn btn-primary"
+                                            >
+                                                View Projects
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    <!-- Tabs -->
+<section id="tabs">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 ">
+                    <nav>
+                        <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">About</a>
+                            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">What I Do</a>
+                            <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Projects</a>
+                            <a class="nav-item nav-link" id="nav-about-tab" data-toggle="tab" href="#nav-about" role="tab" aria-controls="nav-about" aria-selected="false">Resume</a>
+                        </div>
+                    </nav>
+                    <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                                <div class="main-content home">
+                                        <h2>Front End Development Directory</h2>
+                                        <p>This fun directory is a project for my <em>Front End Development</em> competency.</p>
+                                        <p>While web design is the presentation of a webpage, front end development is how that design gets executed on the web. Have you ever looked at your favourite website and wondered what triggers the interactivities (formatted pages and buttons behaviour when clicked)? All of those visible site features are powered through the front end technologies.</p>
+                                        <p>I have grasp expertise in web design and front end technologies. My continuous learning on mobile-web developments has put me at the edge of these ever-evolving industry.</p><hr>
+                                      </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                <div class="main-content"><h2 class="mt-5">What I do</h2><div class="group  container"><div class="row"><div class="skills col-md-6"><img class="skills-img box-shadow" src="/assets/images/svg/react-graphics.svg" alt="skills"><h3 class="theme-color mt-3">WEB DESIGN</h3><p class="mb-5">With my experience in React and NodeJs, makes me passionate about building scalable, data-driven web apps, especially ones that address old problems with new tech!</p></div><div class="skills col-md-6"><img class="skills-img box-shadow" src="/assets/images/svg/ui-ux-graphics.svg" alt="skills"><h3 class="theme-color mt-3">UX/UI DESIGN</h3><p class="mb-5">Application mapping is a collection of techniques for building products that work on multiple screen sizes. I strictly use the foundational principles of responsive design as a framework for thinking about page layout and interactivity.</p></div><div class="skills col-md-6"><img class="skills-img box-shadow" src="/assets/images/svg/brand-identity-graphics.svg" alt="skills"><h3 class="theme-color mt-3">BRAND IDENTITY</h3><p class="mb-5">Showcasing your products and services is part of meeting customer needs. Businesses will always need a brand as a means of reaching their set goals, and that is why your brand needs a specialist.</p></div><div class="skills col-md-6"><img class="skills-img box-shadow" src="/assets/images/svg/analytics-graphics.svg" alt="skills"><h3 class="theme-color mt-3">ANALYTICS</h3><p class="mb-5">Despite the existence of nearly two billion websites, it is possible for a brand to be unrecognised. It is a creative expert job to make you stand out and effectively communicate your content to the broadest possible audience.</p></div></div></div></div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                            Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui minim occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor anim. Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad duis occaecat ex.
+                        </div>
+                        <div class="tab-pane fade" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab">
+                            Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui minim occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor anim. Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad duis occaecat ex.
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
         </div>
-		<div id="root"></div>
+    </section>
+    <!-- ./Tabs -->
+
+            <!-- Footer -->
+
+            <div>
+                    <div class="footer-area horizontal" id="support">
+                        <div class="footer-bg"></div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="section-title text-center mb--40">
+                                        <h2 class="text-white">
+                                            GET <span class="theme-color">IN TOUCH</span>
+                                        </h2>
+                                        <img
+                                            class="image-1"
+                                            src="/assets/images/app/title-icon.png"
+                                            alt="App Landing"
+                                        /><img
+                                            class="image-2"
+                                            src="/assets/images/app/title-icon-2.png"
+                                            alt="App Landing"
+                                        /><img
+                                            class="image-3"
+                                            src="/assets/images/app/title-icon-3.png"
+                                            alt="App Landing"
+                                        />
+                                        <p class="text-white">
+                                            Conversation makes it easier to decide when looking for the
+                                            right development team. I believe our discussion will produce
+                                            a positive result. To reach me, kindly use the details below
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="">
+                                    <div
+                                        class=" col-lg- col-xl-12  offset-xl-2 mt_md--40 mt_sm--40 footer-links"
+                                    >
+                                        <div class="conatct-info">
+                                            <div class="single-contact-info">
+                                                <div class="contact-icon">
+                                                    <i class="zmdi zmdi-phone"></i>
+                                                </div>
+                                                <div class="contact-text">
+                                                    <span>+234 (0) 706 366 8889</span>
+                                                </div>
+                                            </div>
+                                            <div class="single-contact-info">
+                                                <div class="contact-icon">
+                                                    <i class="zmdi zmdi-globe-alt"></i>
+                                                </div>
+                                                <div class="contact-text">
+                                                    <span
+                                                        >noaholatoye101@gmail.com<br />https://noaholatoye.com/</span
+                                                    >
+                                                </div>
+                                            </div>
+                                            <div class="single-contact-info">
+                                                <div class="contact-icon">
+                                                    <i class="zmdi zmdi-pin"></i>
+                                                </div>
+                                                <div class="contact-text">
+                                                    <span
+                                                        >Oba Adeyinka Oyekan Avenue,<br />
+                                                        Ikoyi-Lagos.</span
+                                                    >
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg- offset-lg-2 col-xl-4 offset-xl-4">
+                                    <div class="footer-links text-center">
+                                        <a
+                                            href="https://www.facebook.com/NoahOlatoye"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            ><i class="zmdi zmdi-facebook"></i></a
+                                        ><a
+                                            href="https://twitter.com/noaholatoye"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            ><i class="zmdi zmdi-twitter"></i></a
+                                        ><a
+                                            href="mailto:noaholatoye101@gmail.com"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            ><i class="zmdi zmdi-google"></i></a
+                                        ><a
+                                            href="https://www.linkedin.com/in/noah-olatoye-002b04115/"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            ><i class="zmdi zmdi-linkedin"></i></a
+                                        ><a
+                                            href="https://www.pinterest.com/noaholatoye/"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            ><i class="zmdi zmdi-pinterest"></i></a
+                                        ><a
+                                            href="https://www.youtube.com/channel/UCiPbPo_AJhlDYUbDAyI3Knw?view_as=subscriber"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            ><i class="zmdi zmdi-youtube"></i
+                                        ></a>
+                                    </div>
+                                    <div class="footer-text text-center">
+                                        <span
+                                            >Copyright © 2019
+                                            <a
+                                                href="https://www.linkedin.com/in/noah-olatoye-002b04115/"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                >Noah Olatoye</a
+                                            ></span
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tap-top" style="display: block;">
+                        <div><i class="zmdi zmdi-long-arrow-up"></i></div>
+                    </div>
+                </div>
+		
 		<script src="assets/js/vendor/modernizr.js"></script>
 		<div id="color"></div>
 		<script src="assets/js/vendor/jquery.js"></script>
 		<script src="assets/js/plugins.js"></script>
 		<script src="assets/js/main.js"></script>
-		<script>
-			!(function(l) {
-				function e(e) {
-					for (
-						var r, t, n = e[0], o = e[1], u = e[2], f = 0, i = [];
-						f < n.length;
-						f++
-					)
-						(t = n[f]), a[t] && i.push(a[t][0]), (a[t] = 0);
-					for (r in o)
-						Object.prototype.hasOwnProperty.call(o, r) && (l[r] = o[r]);
-					for (s && s(e); i.length; ) i.shift()();
-					return c.push.apply(c, u || []), p();
-				}
-				function p() {
-					for (var e, r = 0; r < c.length; r++) {
-						for (var t = c[r], n = !0, o = 1; o < t.length; o++) {
-							var u = t[o];
-							0 !== a[u] && (n = !1);
-						}
-						n && (c.splice(r--, 1), (e = f((f.s = t[0]))));
-					}
-					return e;
-				}
-				var t = {},
-					a = { 1: 0 },
-					c = [];
-				function f(e) {
-					if (t[e]) return t[e].exports;
-					var r = (t[e] = { i: e, l: !1, exports: {} });
-					return l[e].call(r.exports, r, r.exports, f), (r.l = !0), r.exports;
-				}
-				(f.m = l),
-					(f.c = t),
-					(f.d = function(e, r, t) {
-						f.o(e, r) ||
-							Object.defineProperty(e, r, { enumerable: !0, get: t });
-					}),
-					(f.r = function(e) {
-						"undefined" != typeof Symbol &&
-							Symbol.toStringTag &&
-							Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }),
-							Object.defineProperty(e, "__esModule", { value: !0 });
-					}),
-					(f.t = function(r, e) {
-						if ((1 & e && (r = f(r)), 8 & e)) return r;
-						if (4 & e && "object" == typeof r && r && r.__esModule) return r;
-						var t = Object.create(null);
-						if (
-							(f.r(t),
-							Object.defineProperty(t, "default", { enumerable: !0, value: r }),
-							2 & e && "string" != typeof r)
-						)
-							for (var n in r)
-								f.d(
-									t,
-									n,
-									function(e) {
-										return r[e];
-									}.bind(null, n)
-								);
-						return t;
-					}),
-					(f.n = function(e) {
-						var r =
-							e && e.__esModule
-								? function() {
-										return e.default;
-								  }
-								: function() {
-										return e;
-								  };
-						return f.d(r, "a", r), r;
-					}),
-					(f.o = function(e, r) {
-						return Object.prototype.hasOwnProperty.call(e, r);
-					}),
-					(f.p = "/portfolio-webapp/");
-				var r = (window.webpackJsonp = window.webpackJsonp || []),
-					n = r.push.bind(r);
-				(r.push = e), (r = r.slice());
-				for (var o = 0; o < r.length; o++) e(r[o]);
-				var s = n;
-				p();
-			})([]);
-		</script>
 		<script src="/portfolio-webapp/static/js/2.a54213b4.chunk.js"></script>
 		<script src="/portfolio-webapp/static/js/main.f2dd306e.chunk.js"></script>
 	</body>

@@ -7893,7 +7893,7 @@ Pagination Area
 .banner-product-image {
 	margin-top: 66%;
 	position: relative;
-	z-index: 9;
+
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.banner-product-image {
@@ -9701,97 +9701,6 @@ Footer Links
 	z-index: 1;
 	font-size: 39px !important;
 }
-
-/*=====  End of responsive  ======*/
-/*============================
-    Template Color Variation 
-==============================*/
-/* .template-color-1 .theme-color {
-  color: var(--main-bg-color); }
-
-.template-color-2 .theme-color {
-  color: #f4769a; }
-
-.template-color-3 .theme-color {
-  color: #2f21b3; }
-
-.template-color-4 .theme-color {
-  color: #8956e2; }
-
-@keyframes ring-rotate {
-  0% {
-    transform: rotate(0deg); }
-  100% {
-    transform: rotate(360deg); } }
-.color-1 {
-  background: var(--main-bg-color); }
-
-.color-2 {
-  background: #05C2F9; }
-
-.color-3 {
-  background: #FDC007; }
-
-.color-picker {
-  position: fixed;
-  right: -190px;
-  top: 200px;
-  width: 190px;
-  z-index: 9;
-  transition: all .3s ease; }
-  .color-picker .settings-header {
-    background: linear-gradient(var(--main-bg-color), var(--main-bg-color));
-    padding: 5px 15px; }
-    .color-picker .settings-header h3 {
-      color: #fff;
-      margin: 0;
-      font-size: 20px;
-      padding: 4px 9px; }
-
-.color-picker a.handle {
-  position: absolute;
-  right: 190px;
-  width: 50px;
-  height: 49px;
-  color: #fff;
-  transition: all .3s ease-in;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 25px;
-  z-index: -1;
-  border-radius: 50%;
-  text-decoration: none;
-  top: -80px;
-  border: 1px solid #fff; }
-
-.handle i {
-  animation: ring-rotate 3s infinite linear; }
-
-.sec-position {
-  position: relative;
-  top: -80px; }
-
-.color-picker .section {
-  background: #fff;
-  padding: 20px;
-  overflow: auto; }
-
-.color-picker .colors a {
-  width: 35px;
-  height: 35px;
-  margin: 0 7px;
-  float: left;
-  transition: all .3s ease-in; } */
-
-/*=========================
-    Thumbnail Color 
-===========================*/
-/* .color-picker a.handle {
-  background: var(--main-bg-color); }
-
-.color-picker .section {
-  border: 1px solid var(--main-bg-color); } */
 
 .logo a img.logo-2,
 .logo a img.logo-3,

@@ -58,6 +58,9 @@ a {
 .project-content p {
 	text-align: center;
 }
+.display-none {
+	display: none;
+}
 
 .box-shadow {
 	-webkit-box-shadow: 9px 10px 5px -4px rgba(0, 0, 0, 0.24);
@@ -74,7 +77,7 @@ a {
 	font-size: 1.4em;
 	margin-top: 0;
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1020px) {
 	.banner-product-image {
 		margin-top: 0;
 	}
